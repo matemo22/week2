@@ -79,9 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="{{ url('halo') }}">Halo</a><hr>
+                    <!-- <a href="{{ url('halo') }}">Halo</a><hr>
                     <a href="{{ url('bebas') }}">Bebas</a>
-                    <!-- {{$tanggal}}  -->
+                    title -->
+                    {{$tanggal}} 
                 </div> <!-- cara manggil variable tanggal dari web.php -->
 
                 <div class="links">
