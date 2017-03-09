@@ -11,11 +11,23 @@
 |
 */
 
+// Route::get('/', function () {
+// 	// $tanggal = "hari ini";
+// 	$tanggal = date("d-m-Y H:i:s", time());
+//     return view('welcome')->with('tanggal', $tanggal);
+// });//Manggil Tanggal ke Welcome
+
 Route::get('/', function () {
-	// $tanggal = "hari ini";
-	$tanggal = date("d-m-Y H:i:s", time());
-    return view('welcome')->with('tanggal', $tanggal);
-});//Manggil Tanggal ke Welcome
+    return view('inirumah');
+});
+
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('gallery', function () {
+    return view('gallery');
+});
 
 Route::get('halo', function () {
     return view('halo');
